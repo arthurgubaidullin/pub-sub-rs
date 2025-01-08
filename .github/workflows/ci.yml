@@ -18,7 +18,7 @@ jobs:
           # - nightly
     steps:
       - uses: actions/checkout@v4
-      - run: rustup update ${{ matrix.toolchain }} && rustup default ${{ matrix.toolchain }}
+      - run: rustup update ${{ matrix.toolchain }} && rustup default ${{ matrix.toolchain }} && rustup component add clippy
       - run: cargo build --workspace --verbose
       - run: cargo test --workspace --verbose
       - run: cargo clippy --workspace --verbose -- -D clippy::all -D clippy::pedantic -W clippy::nursery
