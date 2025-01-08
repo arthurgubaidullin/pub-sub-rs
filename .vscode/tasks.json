@@ -1,0 +1,76 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "cargo",
+      "command": "build",
+      "problemMatcher": ["$rustc"],
+      "group": {
+        "kind": "build"
+      },
+      "label": "cargo: build",
+      "icon": { "id": "gear" },
+      "presentation": {
+        "echo": true,
+        "reveal": "silent",
+        "focus": false,
+        "panel": "dedicated",
+        "showReuseMessage": true,
+        "clear": true
+      }
+    },
+    {
+      "type": "cargo",
+      "command": "test",
+      "problemMatcher": ["$rustc"],
+      "group": {
+        "kind": "test"
+      },
+      "label": "cargo: test",
+      "icon": { "id": "checklist" },
+      "dependsOn": ["cargo: build"],
+      "presentation": {
+        "echo": true,
+        "reveal": "silent",
+        "focus": false,
+        "panel": "dedicated",
+        "showReuseMessage": true,
+        "clear": true
+      }
+    },
+    {
+      "type": "cargo",
+      "command": "clippy",
+      "args": [
+        "--",
+        "-D",
+        "clippy::all",
+        "-D",
+        "clippy::pedantic",
+        "-W",
+        "clippy::nursery"
+      ],
+      "problemMatcher": ["$rustc"],
+      "group": {
+        "kind": "test"
+      },
+      "label": "cargo: clippy",
+      "icon": { "id": "inspect" },
+      "dependsOn": ["cargo: build"],
+      "presentation": {
+        "echo": true,
+        "reveal": "silent",
+        "focus": false,
+        "panel": "dedicated",
+        "showReuseMessage": true,
+        "clear": true
+      }
+    },
+    {
+      "label": "cargo: build test clippy",
+      "group": { "kind": "build", "isDefault": true },
+      "dependsOn": ["cargo: build", "cargo: test", "cargo: clippy"],
+      "dependsOrder": "sequence"
+    }
+  ]
+}
