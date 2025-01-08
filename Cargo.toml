@@ -5,6 +5,6 @@ members = [
     "examples/orders",
     "examples/simple",
     "pub-sub/in-memory",
-    "pub-sub/trait", "examples/messages/order-created",
+    "pub-sub/trait", "examples/messages/order-created", "examples/messages/je-created",
 ]
 resolver = "2"
