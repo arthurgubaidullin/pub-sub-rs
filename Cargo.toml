@@ -1,3 +1,8 @@
 [workspace]
-members = ["examples/simple", "pub-sub/in-memory", "pub-sub/trait"]
+members = [
+    "examples/orders",
+    "examples/simple",
+    "pub-sub/in-memory",
+    "pub-sub/trait",
+]
 resolver = "2"
