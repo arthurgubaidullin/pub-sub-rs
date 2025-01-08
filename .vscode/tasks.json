@@ -4,6 +4,7 @@
     {
       "type": "cargo",
       "command": "build",
+      "args": ["--workspace"],
       "problemMatcher": ["$rustc"],
       "group": {
         "kind": "build"
@@ -22,6 +23,7 @@
     {
       "type": "cargo",
       "command": "test",
+      "args": ["--workspace"],
       "problemMatcher": ["$rustc"],
       "group": {
         "kind": "test"
@@ -42,6 +44,7 @@
       "type": "cargo",
       "command": "clippy",
       "args": [
+        "--workspace",
         "--",
         "-D",
         "clippy::all",
