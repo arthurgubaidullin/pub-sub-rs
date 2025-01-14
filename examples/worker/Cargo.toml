@@ -17,7 +17,7 @@ crate-type = ["cdylib"]
 [dependencies]
 bookkeeping_example = { path = "../bookkeeping" }
 in-memory-pub-sub = { path = "../../pub-sub/in-memory" }
-orders_example = { path = "../orders" }
+orders-example = { path = "../orders" }
 order_created_example = { path = "../messages/order-created" }
 pub-sub-trait = { path = "../../pub-sub/trait" }
 

@@ -7,7 +7,7 @@ edition = "2021"
 bookkeeping_example = { path = "../bookkeeping" }
 in-memory-pub-sub = { path = "../../pub-sub/in-memory" }
 notifications_example = { path = "../notifications" }
-orders_example = { path = "../orders" }
+orders-example = { path = "../orders" }
 
 futures = { workspace = true }
 tokio = { workspace = true, features = ["full"] }
