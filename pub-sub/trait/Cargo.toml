@@ -2,5 +2,8 @@
 name = "pub_sub_trait"
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
+description = "A collection of traits for using the asynchronous Pub/Sub system."
+authors = ["Artur Gubaidullin <lapteuh@gmail.com>"]
 
 [dependencies]
