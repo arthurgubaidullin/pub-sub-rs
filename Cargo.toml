@@ -1,13 +1,14 @@
 [workspace]
 members = [
-    "examples/notifications",
     "examples/bookkeeping",
+    "examples/messages/je-created",
+    "examples/messages/order-created",
+    "examples/notifications",
     "examples/orders",
     "examples/simple",
+    "examples/worker",
     "pub-sub/in-memory",
     "pub-sub/trait",
-    "examples/messages/order-created",
-    "examples/messages/je-created",
 ]
 resolver = "2"
 
