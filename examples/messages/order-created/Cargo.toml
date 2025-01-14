@@ -1,5 +1,5 @@
 [package]
-name = "order_created_example"
+name = "order-created-example"
 version = "0.1.0"
 edition = "2021"
 

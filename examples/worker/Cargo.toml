@@ -18,7 +18,7 @@ crate-type = ["cdylib"]
 bookkeeping-example = { path = "../bookkeeping" }
 in-memory-pub-sub = { path = "../../pub-sub/in-memory" }
 orders-example = { path = "../orders" }
-order_created_example = { path = "../messages/order-created" }
+order-created-example = { path = "../messages/order-created" }
 pub-sub-trait = { path = "../../pub-sub/trait" }
 
 axum = { version = "0.8", default-features = false }
