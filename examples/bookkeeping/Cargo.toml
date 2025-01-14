@@ -4,6 +4,6 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-je_created_example = { path = "../messages/je-created" }
+je-created-example = { path = "../messages/je-created" }
 order_created_example = { path = "../messages/order-created" }
 pub-sub-trait = { path = "../../pub-sub/trait" }
