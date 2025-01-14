@@ -4,3 +4,5 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+order_created_example = { path = "../messages/order-created" }
+pub_sub_trait = { path = "../../pub-sub/trait" }
