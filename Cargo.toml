@@ -11,6 +11,9 @@ members = [
 ]
 resolver = "2"
 
+[workspace.dependencies]
+futures = "0.3"
+
 [profile.dev]
 opt-level = 0
 
