@@ -5,7 +5,7 @@ edition = "2021"
 
 [dependencies]
 bookkeeping_example = { path = "../bookkeeping" }
-in_memory_pub_sub = { path = "../../pub-sub/in-memory" }
+in-memory-pub-sub = { path = "../../pub-sub/in-memory" }
 notifications_example = { path = "../notifications" }
 orders_example = { path = "../orders" }
 

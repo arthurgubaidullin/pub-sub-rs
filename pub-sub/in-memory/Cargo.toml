@@ -1,5 +1,5 @@
 [package]
-name = "in_memory_pub_sub"
+name = "in-memory-pub-sub"
 version = "0.1.0"
 edition = "2021"
 
