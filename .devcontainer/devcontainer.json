@@ -21,7 +21,7 @@
   // "forwardPorts": [],
 
   // Use 'postCreateCommand' to run commands after the container is created.
-  // "postCreateCommand": "rustc --version",
+  "postCreateCommand": "sh .devcontainer/install-dependencies.sh",
 
   // Configure tool-specific properties.
   "customizations": {
