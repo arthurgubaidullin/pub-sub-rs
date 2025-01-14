@@ -10,3 +10,9 @@ members = [
     "examples/messages/je-created",
 ]
 resolver = "2"
+
+[profile.dev]
+opt-level = 0
+
+[profile.release]
+opt-level = "s"
