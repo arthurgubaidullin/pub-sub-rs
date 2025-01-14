@@ -1,6 +1,6 @@
 # Pub/Sub
 
-[![Open in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=Open&color=blue)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/arthurgubaidullin/pub-sub-rs) [![Cargo Build & Test & Lint](https://github.com/arthurgubaidullin/pub-sub-rs/actions/workflows/ci.yml/badge.svg)](https://github.com/arthurgubaidullin/pub-sub-rs/actions/workflows/ci.yml)
+[![Open in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=Open&color=blue)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/arthurgubaidullin/pub-sub-rs) [![Cargo Build & Test & Lint](https://github.com/arthurgubaidullin/pub-sub-rs/actions/workflows/ci.yml/badge.svg)](https://github.com/arthurgubaidullin/pub-sub-rs/actions/workflows/ci.yml) [![Dependabot Updates](https://github.com/arthurgubaidullin/pub-sub-rs/actions/workflows/dependabot/dependabot-updates/badge.svg)](https://github.com/arthurgubaidullin/pub-sub-rs/actions/workflows/dependabot/dependabot-updates)
 
 ## License
 
