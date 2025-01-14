@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-bookkeeping_example = { path = "../bookkeeping" }
+bookkeeping-example = { path = "../bookkeeping" }
 in-memory-pub-sub = { path = "../../pub-sub/in-memory" }
 notifications-example = { path = "../notifications" }
 orders-example = { path = "../orders" }
