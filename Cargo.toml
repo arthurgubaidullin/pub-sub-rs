@@ -12,8 +12,10 @@ members = [
 resolver = "2"
 
 [workspace.dependencies]
+axum = { version = "0.8" }
 futures = "0.3"
 tokio = "1.43"
+tower-service = "0.3"
 
 [profile.dev]
 opt-level = 0
