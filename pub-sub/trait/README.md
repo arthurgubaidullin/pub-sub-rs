@@ -2,6 +2,20 @@
 
 A collection of traits for using the asynchronous Pub/Sub system.
 
+## Getting started
+
+To install, you can add to the following to your `Cargo.toml` in the `dependencies` section:
+
+```toml
+pub-sub-trait = { git = "https://github.com/arthurgubaidullin/pub-sub-rs.git", version = "0.1" }
+```
+
+Or
+
+```sh
+cargo add --git https://github.com/arthurgubaidullin/pub-sub-rs.git pub-sub-trait
+```
+
 ## License
 
 This project is licensed under the [MIT license](LICENSE).
