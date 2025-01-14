@@ -4,5 +4,10 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+bookkeeping_example = { path = "../bookkeeping" }
+in_memory_pub_sub = { path = "../../pub-sub/in-memory" }
+notifications_example = { path = "../notifications" }
 orders_example = { path = "../orders" }
-tokio = { version = "1.43", features = ["full"] }
+
+futures = { workspace = true }
+tokio = { workspace = true, features = ["full"] }
