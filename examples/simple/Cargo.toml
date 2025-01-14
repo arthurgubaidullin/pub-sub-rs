@@ -6,7 +6,7 @@ edition = "2021"
 [dependencies]
 bookkeeping_example = { path = "../bookkeeping" }
 in-memory-pub-sub = { path = "../../pub-sub/in-memory" }
-notifications_example = { path = "../notifications" }
+notifications-example = { path = "../notifications" }
 orders-example = { path = "../orders" }
 
 futures = { workspace = true }
