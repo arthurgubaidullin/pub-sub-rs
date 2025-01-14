@@ -4,6 +4,10 @@ version = "0.1.0"
 edition = "2021"
 license = "MIT"
 description = "A collection of traits for using the asynchronous Pub/Sub system."
+categories = ["asynchronous", "rust-patterns", "web-programming"]
+keywords = ["pubsub", "pub-sub", "trait"]
 authors = ["Artur Gubaidullin <lapteuh@gmail.com>"]
+repository = "https://github.com/arthurgubaidullin/pub-sub-rs"
+readme = "README.md"
 
 [dependencies]
