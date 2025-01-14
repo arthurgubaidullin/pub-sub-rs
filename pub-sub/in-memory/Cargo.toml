@@ -5,4 +5,4 @@ edition = "2021"
 
 [dependencies]
 futures = { workspace = true }
-pub_sub_trait = { path = "../trait" }
+pub-sub-trait = { path = "../trait" }

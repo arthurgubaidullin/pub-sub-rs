@@ -19,7 +19,7 @@ bookkeeping_example = { path = "../bookkeeping" }
 in_memory_pub_sub = { path = "../../pub-sub/in-memory" }
 orders_example = { path = "../orders" }
 order_created_example = { path = "../messages/order-created" }
-pub_sub_trait = { path = "../../pub-sub/trait" }
+pub-sub-trait = { path = "../../pub-sub/trait" }
 
 axum = { version = "0.8", default-features = false }
 console_error_panic_hook = { version = "0.1" }
