@@ -1,3 +1,5 @@
+#![allow(clippy::future_not_send)]
+
 use crate::orders;
 use axum::{routing::get, Router};
 use tower_service::Service;
