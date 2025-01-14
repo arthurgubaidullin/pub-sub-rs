@@ -2,6 +2,13 @@
 name = "in-memory-pub-sub"
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
+description = "An implementation of the publisher of the Pub/Sub system."
+categories = ["asynchronous", "rust-patterns", "web-programming"]
+keywords = ["in-memory", "pubsub", "pub-sub"]
+authors = ["Artur Gubaidullin <lapteuh@gmail.com>"]
+repository = "https://github.com/arthurgubaidullin/pub-sub-rs"
+readme = "README.md"
 
 [dependencies]
 futures = { workspace = true }
