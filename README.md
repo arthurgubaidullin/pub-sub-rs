@@ -1,6 +1,6 @@
-# Pub/Sub RS
+# Pub/Sub
 
-[![Cargo Build & Test & Lint](https://github.com/arthurgubaidullin/pub-sub-rs/actions/workflows/ci.yml/badge.svg)](https://github.com/arthurgubaidullin/pub-sub-rs/actions/workflows/ci.yml)
+[![Open in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=Open&color=blue)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/arthurgubaidullin/pub-sub-rs) [![Cargo Build & Test & Lint](https://github.com/arthurgubaidullin/pub-sub-rs/actions/workflows/ci.yml/badge.svg)](https://github.com/arthurgubaidullin/pub-sub-rs/actions/workflows/ci.yml)
 
 ## License
 
@@ -8,4 +8,4 @@ This project is licensed under the [MIT license](LICENSE).
 
 ### Contribution
 
-Unless you explicitly state otherwise, any contribution intentionally submitted for inclusion in "Pub/Sub RS" by you, shall be licensed as MIT, without any additional terms or conditions.
+Unless you explicitly state otherwise, any contribution intentionally submitted for inclusion in "Pub/Sub" by you, shall be licensed as MIT, without any additional terms or conditions.
