@@ -5,7 +5,7 @@
 ## Crates
 
 1. [Pub/Sub Trait](pub-sub/trait/README.md)
-1. [In memory Pub/Sub](pub-sub/in-memory/README.md)
+1. [In-memory Pub/Sub](pub-sub/in-memory/README.md)
 
 ## Examples
 
